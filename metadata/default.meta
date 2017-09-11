@@ -1,0 +1,38 @@
+######################################################
+#
+# Splunk Technology Add-On for Cisco ASA
+# Cisco Adaptive Security Appliance
+#
+# Copyright (C) 2012 Kent Heide
+# All Rights Reserved
+#
+######################################################
+
+[]
+access = read : [ * ], write : [ admin, power ]
+export = system
+
+[eventtypes]
+export = system
+
+[props]
+export = system
+
+[transforms]
+export = system
+
+[macros]
+export = system
+
+[tags]
+export = system
+
+[eventtypes]
+export = system
+
+[lookups]
+export = system
+
+[viewstates]
+access = read : [ * ], write : [ * ]
+export = system
