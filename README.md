@@ -7,7 +7,7 @@ This is a **template** which can be used to quickly onboard CEF-formatted data. 
 Aplura, LLC
 
 ## Version
-1.0
+1.2
 
 ## Index-time Operations
 True
@@ -25,3 +25,14 @@ True
 
 ## Field Mappings
 The `cef_splunk_fields.csv` file contains a listing of the CEF fields and the aliases that are created. Fields which are not listed with a Splunk field will be extracted to the CEF field.
+
+## Changelog
+
+### 1.0
+* Initial release
+
+### 1.1
+* Fix for CIM mappings (thanks, Greg!)
+
+### 1.2
+* Fix for the initial extraction to expect "CEF" at the start of the event
