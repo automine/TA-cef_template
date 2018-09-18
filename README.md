@@ -7,7 +7,7 @@ This is a **template** which can be used to quickly onboard CEF-formatted data. 
 Aplura, LLC
 
 ## Version
-1.2
+1.3
 
 ## Index-time Operations
 True
@@ -36,3 +36,8 @@ The `cef_splunk_fields.csv` file contains a listing of the CEF fields and the al
 
 ### 1.2
 * Fix for the initial extraction to expect "CEF" at the start of the event
+
+### 1.3
+* Fix typo for dest (commented out by default)
+* Fix typo for src_nt_host
+* Thanks to tonysweet for reporting these!
